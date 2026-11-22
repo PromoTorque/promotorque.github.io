@@ -61,7 +61,7 @@
       fbq('track','PageView');
       document.getElementById('joinWhatsApp').addEventListener('click',function(){
         if(typeof window.fbq==='function'){
-          window.fbq('trackCustom','WhatsAppClick');
+          window.fbq('track','Lead');
           window.fbq('track','Contact');
         }
       });
